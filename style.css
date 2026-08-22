@@ -88,6 +88,7 @@ body {
   height: 75vh;
   background-color: #f4f4f1;
   padding: 0rem;
+ 
 }
 
 .home-image {
@@ -156,24 +157,18 @@ button:hover {
 
 .fa-solid {
   font-size: 3rem;
-  
   color: rgb(122, 69, 69);
   width: 50px;
   height: 50px;
   
 }
 
-
-
-
-
-
-
-
 .home-content h1 {
   font-size: 3rem;
   /* margin-bottom: 1rem; */
   color: rgb(122, 69, 69);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 100;
    /* width: 350px; */
   /* height: 350px; */
   /* left: 100rem; */
@@ -182,9 +177,44 @@ button:hover {
   
 }
 
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #f4f4f1;
+  padding: 0rem; 
+}
 
+.about-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
 
+.about-content {
+  text-align: left;
+  padding: 20px;
+}
 
+.about-content p {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.about-content span {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.about-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: rgb(122, 69, 69);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 100;
+  
+}
 
 
 
