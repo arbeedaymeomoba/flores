@@ -287,3 +287,141 @@ button:hover {
 
 }
 
+.trending-product-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 24px;
+}
+
+.indicator {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c7a79c;
+  border-radius: 50%;
+  background-color: #eaded9;
+}
+
+.indicator-active {
+  background-color: #fff;
+}
+
+.trending-product-heading h2 {
+   font-size: 2rem;
+ margin-bottom: 1rem;
+ margin-top: 10rem;
+ color: rgb(122, 69, 69);
+ font-family: Georgia, "Times New Roman", serif;
+ font-weight: 100;
+ text-align: center;
+ margin-bottom: 80px;
+}
+
+.testimonial-navigation {
+  text-align: center;
+  padding: 0 20px 50px;
+}
+
+.testimonial-name {
+  color: #8d8683;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 48px;
+}
+
+.testimonial-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.testimonial-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #bdb9b7;
+  font-size: 1.6rem;
+}
+
+.testimonial-arrow:hover {
+  background: transparent;
+  color: #bdb9b7;
+  box-shadow: none;
+}
+
+.testimonial-arrow-next,
+.testimonial-arrow-next:hover {
+  color: #bd9078;
+}
+
+.testimonial-divider {
+  width: 1px;
+  height: 54px;
+  background-color: #e5ddd9;
+}
+
+
+
+.latest-drops-heading h1 {
+   font-size: 3rem;
+ margin-bottom: 1rem;
+ color: rgb(122, 69, 69);
+ font-family: Georgia, "Times New Roman", serif;
+ font-weight: 100;
+ text-align: center;
+ margin-bottom: 80px;
+}
+
+
+.latest-drops-content h3 {
+   font-size: 2rem;
+ margin-bottom: 1rem;
+ color: rgb(122, 69, 69);
+ font-family: Georgia, "Times New Roman", serif;
+ font-weight: 100;
+ 
+ margin-bottom: 10px;
+}
+
+
+.latest-drops-content span {
+  
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+
+
+}
+
+
+.latest-drops-content {
+ 
+   display: flex;
+ min-width: 0;
+ text-align: center;
+ font-size: 16px;
+ text-transform: capitalize;
+ font-weight: 600px;
+ word-spacing: 0%;
+ padding: 10px;
+ border-radius: 10px;
+ margin-bottom: 80px;
+  justify-content: center;
+ align-items: center;
+ gap: 50px;
+ 
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+
+
+}
+
